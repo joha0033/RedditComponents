@@ -3,7 +3,7 @@
   //just defining the module
     angular
       .module('redditClone')
-      .component('posts', {
+      .component('post', {
         controller: 'postController',
         templateUrl: 'app/post/post.html',
           bindings: {
